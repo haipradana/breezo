@@ -7,6 +7,46 @@
     <link rel="stylesheet" href="src/output.css">
 </head>
 <body>
+    <!-- Header start -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-4">breezo</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button"
+                    class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[220px] w-full right-3 top-full  lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:block">
+                        <ul class="block lg:flex ">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- Header end -->
+
     <!-- Hero Start -->
      <section id="home" class="pt-36">
         <div class="container">
@@ -20,7 +60,7 @@
                 </div>
                 <div class="w-full self-center px-4 lg:w-1/2">
                     <div class="relative mt-20 lg:mt-9 lg:right-0">
-                        <img src="src/img/sinten-nggih.png" alt="Breezo" class="max-w-full mx-auto" />
+                        <img src="src/img/chill-guy.png" alt="Breezo" class="max-w-full mx-auto" />
                         <!-- svg blob -->
                         <span class="absolute -bottom-14 -z-40 left-1/2 -translate-x-1/2 md:bottom-5 md:scale-150">
                             <svg class="w-100 sm:w-150 md:w-180" width="300" height="300"  viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -85,5 +125,7 @@
         </div>
      </section>
     <!-- About Me End -->
+
+<script src="src/app.js"></script>
 </body>
 </html>
