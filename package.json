@@ -18,6 +18,8 @@
   "homepage": "https://github.com/haipradana/breezo#readme",
   "description": "",
   "devDependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.10",
     "tailwindcss": "^3.4.17"
   }
 }
